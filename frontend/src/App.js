@@ -1,18 +1,18 @@
 import React from 'react';
-
+import { ThemeProvider } from "@material-ui/core/styles";
+import theme from "./theme";
 // components
 import { TopBar } from './components';
 
 function App() {
   
   return (
-    <div className="App">
-      
+    <ThemeProvider theme={theme}>
       <TopBar />
       {/* Video Player */}
 
       {/* Options */}
-    </div>
+    </ThemeProvider>
   );
 }
 
