@@ -69,6 +69,9 @@ const OptionsCard = ({ children }) => {
                         <Grid item xl={4} lg={4} md={6} sm={6} xs={6}>
                         <Paper elevation={1} className={classes.paper}>
                             <Typography variant="h6" gutterBottom>Make a Call</Typography>
+                            <Typography variant="body2" gutterBottom>
+                                Click on "COPY YOUR ID" button and paste (CTL+V) bellow.
+                            </Typography>
                             <TextField 
                                 label="ID to Call" 
                                 variant="outlined" 
