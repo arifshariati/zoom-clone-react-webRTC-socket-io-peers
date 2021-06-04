@@ -1,9 +1,17 @@
+import React from 'react';
 
+// components
+import { TopBar } from './components';
 
 function App() {
+  
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      
+      <TopBar />
+      {/* Video Player */}
+
+      {/* Options */}
     </div>
   );
 }
